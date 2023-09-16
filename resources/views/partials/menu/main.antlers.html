@@ -1,0 +1,21 @@
+<nav 
+  x-show="menu" 
+  x-transition:enter="transition ease-out duration-200"
+  x-transition:enter-start="-translate-x-full"
+  x-transition:enter-end="translate-x-0"
+  x-transition:leave="transition ease-in duration-200"
+  x-transition:leave-start="translate-x-0"
+  x-transition:leave-end="-translate-x-full"
+  class="fixed bg-white w-full h-full left-0 top-40 md:top-0 px-10 pb-20 md:p-0 md:relative md:!block">
+  <ul class="md:flex md:mt-30">
+    <li>
+      <a href="{{ site:url }}" class="block text-2xl font-bold text-black hover:text-gray-500">Home</a>
+    </li>
+    <li class="mt-10 md:mt-0 md:ml-20">
+      <a href="{{ site:url }}/about" class="block text-2xl font-bold text-black hover:text-gray-500">About</a>
+    </li>
+    <li class="mt-10 md:mt-0 md:ml-20">
+      <a href="{{ site:url }}/services" class="block text-2xl font-bold text-black hover:text-gray-500">Services</a>
+    </li>
+  </ul>
+</nav>

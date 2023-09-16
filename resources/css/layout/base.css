@@ -1,0 +1,14 @@
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply flex flex-col min-h-screen text-graphite leading-7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  @apply flex-1;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+<head>
+<meta charset="utf-8">
+<title>{{ title ?? site:name }} &bull; uto legal</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ if  open_graph_description }}<meta name="description" content="{{ open_graph_description }}">{{ else }}<meta name="description" content="">{{ /if}}
+<meta property="og:title" content="{{ title ?? site:name }} &bull; uto legal">
+{{ if  open_graph_description }}<meta name="og:description" content="{{ open_graph_description }}">{{ else }}<meta property="og:description" content="">{{ /if }}
+{{ if open_graph_image }}<meta property="og:image" content="{{ config:client:base_url }}{{ open_graph_image }}"> {{ else }}<meta property="og:image" content="{{ config:client:base_url }}/assets/alphacare-opengraph.png">{{ /if }}
+<meta property="og:url" content="{{ site_url }}{{ current_url }}">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+{{ if  open_graph_description }}<meta name="twitter:description" content="{{ open_graph_description }}">{{ else }}<meta name="twitter:description" content="">{{ /if }}
+<meta name="twitter:title" content="{{ title ?? site:name }} &bull; uto legal">
+{{ if open_graph_image }}<meta property="twitter:image" content="{{ config:client:base_url }}{{ open_graph_image }}"> {{ else }}<meta property="twitter:image" content="{{ config:client:base_url }}/assets/alphacare-opengraph.png">{{ /if }}
+<meta name="csrf-token" content="{{ csrf_token }}">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+{{ vite src="resources/js/app.js|resources/css/app.css" }}
+</head>
+<body class="bg-white text-black p-10" x-data="{ menu: false }">
+  {{ partial:menu/button }}
+  {{ partial:menu/main }}
+  {{# 
+  {{ partial:icons/arrow-back }}
+  {{ partial:icons/arrow-forward }}
+  {{ partial:icons/chevron-down }}
+  {{ partial:icons/chevron-up }}
+   #}}
+  {{# {{ partial:layout/header }} #}}
+  <main>
+    {{ template_content }}
+  </main>
+  {{# {{ partial:layout/footer }}  #}}
+</body>
+</html>
