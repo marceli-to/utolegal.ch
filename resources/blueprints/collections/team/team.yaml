@@ -1,0 +1,188 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              validate:
+                - required
+              instructions: 'Used in listings, fullname and title (i.E. Dr. Annatina Menn)'
+              instructions_position: below
+              listable: hidden
+              visibility: visible
+              input_type: text
+              antlers: false
+              hide_display: false
+          -
+            handle: firstname
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Firstname
+              icon: text
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: lastname
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Lastname
+              icon: text
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: jobtitle
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Jobtitle
+              icon: text
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: e-mail
+            field:
+              input_type: email
+              antlers: false
+              type: text
+              display: E-Mail
+              icon: text
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: phone
+            field:
+              input_type: tel
+              antlers: false
+              type: text
+              display: Phone
+              icon: text
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: vcard
+            field:
+              mode: list
+              container: assets
+              folder: downloads
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: V-Card
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: portrait
+            field:
+              max_files: 1
+              min_files: 1
+              mode: list
+              container: assets
+              folder: images
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Portrait
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: description
+            field:
+              buttons:
+                - h3
+                - bold
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              remove_empty_nodes: false
+              antlers: false
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              always_show_set_button: false
+              collapse: false
+              previews: true
+              type: bard
+              display: Description
+              icon: bard
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - team
+              max_items: 1
+              listable: false
+              localizable: true
+title: Team

@@ -1,17 +1,21 @@
-title: Pages
+title: Team
 sites:
   - default
   - en
 propagate: false
-template: templates/content/default
+template: templates/content/team/show
 layout: templates/layout
 revisions: false
-route: '{parent_uri}/{slug}'
+route: 'team/{slug}'
 sort_dir: asc
+date_behavior:
+  past: public
+  future: private
 preview_targets:
   -
     label: Entry
     url: '{permalink}'
     refresh: true
 structure:
-  root: true
+  root: false
+  slugs: true

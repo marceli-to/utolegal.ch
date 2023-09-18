@@ -1,0 +1,13 @@
+<li class="flex items-start">
+  {{ locales current_first="false" sort="name"}}
+    <a 
+      href="{{ permalink }}" 
+      class="block font-grotesk-bold text-black hover:text-graphite py-8 md:py-0 !leading-none {{ class }}"
+      title="{{ title }} ({{ locale.name | substr(0, 1) }})">
+      {{ locale.name | substr(0, 1) }}
+    </a>
+    {{ if !last }}
+      <span class="block mx-3 py-8 md:py-0 text-black leading-none">/</span>
+    {{ /endif }}
+  {{ /locales }}
+</li>

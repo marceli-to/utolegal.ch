@@ -2,3 +2,12 @@ name: 'Marcel Stadelmann'
 super: true
 id: 49862616-3811-407d-aebb-463013b87200
 password_hash: $2y$10$SNAxlNn.6GYLDn/q5qq8FeydC38x3RXz/aeJ5w./WgQ7iFV7nEzxG
+preferences:
+  collections:
+    team:
+      columns:
+        - firstname
+        - lastname
+        - title
+        - site
+        - status

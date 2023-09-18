@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site:short_locale }}">
+<html lang="{{ site:short_locale }}" class="bg-white">
 <head>
 <meta charset="utf-8">
 <title>{{ title ?? site:name }} &bull; uto legal</title>
@@ -25,19 +25,14 @@
 <meta name="theme-color" content="#ffffff">
 {{ vite src="resources/js/app.js|resources/css/app.css" }}
 </head>
-<body class="bg-white text-black p-10" x-data="{ menu: false }">
-  {{ partial:menu/button }}
-  {{ partial:menu/main }}
-  {{# 
-  {{ partial:icons/arrow-back }}
-  {{ partial:icons/arrow-forward }}
-  {{ partial:icons/chevron-down }}
-  {{ partial:icons/chevron-up }}
-   #}}
-  {{# {{ partial:layout/header }} #}}
-  <main>
+
+{{ partial:layout/grid }}
+
+{{ partial:layout/body }}
+  {{ partial:layout/header }}
+  {{ partial:layout/main }}
     {{ template_content }}
-  </main>
-  {{# {{ partial:layout/footer }}  #}}
-</body>
+  {{ /partial:layout/main }}
+  {{ partial:layout/footer }}
+{{ /partial:layout/body}}
 </html>

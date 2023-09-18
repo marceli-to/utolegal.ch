@@ -1,0 +1,17 @@
+<li>
+  {{ if is_homepage }}
+    <a 
+      href="{{ route }}" 
+      class="block font-grotesk-bold py-8 md:py-0  hover:text-graphite !leading-none {{ class }} {{ is_current ? 'text-graphite' : 'text-black' }}"
+      title="{{ title }}">
+      {{ title }}
+    </a>
+  {{ else }}
+    <a 
+      href="{{ route }}" 
+      class="block font-grotesk-bold py-8 md:py-0 hover:text-black !leading-none {{ class }} {{ is_current || is_parent ? 'text-black' : 'text-graphite' }}"
+      title="{{ title }}">
+      {{ title }}
+    </a>
+  {{ /if }}
+</li>

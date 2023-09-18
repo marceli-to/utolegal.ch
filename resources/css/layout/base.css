@@ -4,11 +4,11 @@ html {
 }
 
 body {
-  @apply flex flex-col min-h-screen text-graphite leading-7;
+  overflow-y: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  @apply flex-1;
+p {
+  @apply mb-20;
 }

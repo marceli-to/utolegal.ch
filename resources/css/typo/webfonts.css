@@ -1,0 +1,31 @@
+/**
+ * Typography - Webfonts
+ * -----------------------------------------------------------------------------
+ */
+ 
+@layer base {
+
+  @font-face {
+    font-family: 'FunktionalGrotesk-Bold';
+    src: url('../fonts/FunktionalGrotesk-Bold.eot');
+    src: url('../fonts/FunktionalGrotesk-Bold.eot?iefix') format('eot'),url('../fonts/FunktionalGrotesk-Bold.woff') format('woff'), url('../fonts/FunktionalGrotesk-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FunktionalGrotesk-Regular';
+    src: url('../fonts/FunktionalGrotesk-Regular.eot');
+    src: url('../fonts/FunktionalGrotesk-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/FunktionalGrotesk-Regular.woff') format('woff'), url('../fonts/FunktionalGrotesk-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FunktionalGrotesk-RegularItalic';
+    src: url('../fonts/FunktionalGrotesk-RegularItalic.eot');
+    src: url('../fonts/FunktionalGrotesk-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/FunktionalGrotesk-RegularItalic.woff') format('woff'), url('../fonts/FunktionalGrotesk-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

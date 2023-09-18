@@ -11,8 +11,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       colors: {
         'graphite': '#646464',
+      },
+
+      fontFamily: {
+        'grotesk-bold': ['FunktionalGrotesk-Bold', ...defaultTheme.fontFamily.sans],
+        'grotesk-regular': ['FunktionalGrotesk-Regular', ...defaultTheme.fontFamily.sans],
+        'grotesk-italic': ['FunktionalGrotesk-RegularItalic', ...defaultTheme.fontFamily.sans],
+      },
+
+      fontSize: {
+        'sm': ['0.9375rem', '1.33333'], // 15px
+        'md': ['1rem', '1.375'],        // 16px
+        'lg': ['1.125rem', '1.33333'],  // 18px
+      },
+
+      screens: {
+        'xs': '500px',
       },
     },
 
