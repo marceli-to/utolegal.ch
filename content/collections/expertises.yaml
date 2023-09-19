@@ -1,0 +1,21 @@
+title: Expertises
+sites:
+  - default
+  - en
+propagate: false
+template: templates/content/expertise/show
+layout: templates/layout
+mount: 8587a4ba-f32e-4091-bfe3-ecdd79f9cebd
+revisions: false
+route: 'expertise/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+structure:
+  root: false

@@ -11,3 +11,9 @@ preferences:
         - title
         - site
         - status
+    expertises:
+      columns:
+        - title
+        - site
+        - slug
+        - status

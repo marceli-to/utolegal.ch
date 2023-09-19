@@ -1,0 +1,18 @@
+<nav class="hyphens-auto md:col-span-7 md:col-start-4 lg:col-span-6 lg:col-start-3 {{ class }}">
+  {{ partial:components/heading_one class="mb-28 lg:hidden" :title="title" }}
+  <ul class="-mt-8 md:mt-0">
+    {{ collection:expertises sort="order" }}
+      <li class="{{ has_arrow ? 'border-t border-t-black md:pt-8 lg:pt-0 lg:border-t-0 min-h-[3.5rem] lg:min-h-0' : ''}}">
+        <a 
+          href="{{ permalink }}" 
+          title="{{ title }}" 
+          class="{{ has_arrow ? 'flex justify-between' : 'block' }} font-grotesk-bold transition-colors py-8 md:py-0 md:mb-16 {{ is_detail ? 'text-graphite hover:text-black' : 'text-black hover:text-graphite' }} {{ current_uri == url ? '!text-black' : ''}}">
+          {{ title }}
+          {{ if has_arrow }}
+            {{ partial:icons/chevron-right class="ml-8 mt-4 lg:hidden" }}
+          {{ /if}}
+        </a>
+      </li>
+    {{ /collection:expertises }}
+  </ul>
+</nav>
