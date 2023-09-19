@@ -7,12 +7,41 @@
   </div>
 
   <div class="order-1 md:order-2 md:mb-28 lg:mb-0 md:col-span-9 md:col-start-4 lg:col-span-4 lg:col-start-8 xl:col-span-3 xl:col-start-8">
-    <h1 class="font-grotesk-bold">{{ firstname }} {{ lastname }}</h1>
-    <strong>{{ jobtitle}}</strong><br>
-    <a href="mailto:{{ email }}" target="_blank" title="{{ trans key="E-Mail Adresse" }}" class="hover:text-graphite transition-colors">{{ email }}</a><br>
-    <a href="tel:{{ phone }}" target="_blank" title="{{ trans key="Telefonnummer" }}" class="hover:text-graphite transition-colors">{{ phone }}</a><br>
+    <h1 class="font-grotesk-bold">
+      {{ firstname }} {{ lastname }}
+    </h1>
+    <div>
+      <strong>{{ jobtitle}}</strong>
+    </div>
+    <div>
+      <a 
+        href="mailto:{{ email }}" 
+        target="_blank" 
+        title="{{ trans key="E-Mail Adresse" }}" 
+        class="hover:text-graphite transition-colors">
+        {{ email }}
+      </a>
+    </div>
+    <div>
+      <a 
+        href="tel:{{ phone }}" 
+        target="_blank" 
+        title="{{ trans key="Telefonnummer" }}" 
+        class="hover:text-graphite transition-colors">
+        {{ phone }}
+      </a>
+    </div>
+
     {{ if vcard }}
-      <a href="{{ vcard }}" title="Download V-Card" target="_blank" class="font-grotesk-italic hover:text-graphite transition-colors">V-Card</a>
+      <div>
+        <a 
+          href="{{ vcard }}" 
+          title="Download V-Card" 
+          target="_blank" 
+          class="font-grotesk-italic hover:text-graphite transition-colors">
+          V-Card
+        </a>
+      </div>
     {{ /if }}
     <div class="hidden lg:block lg:mt-32 hyphens-auto">
       {{ description }}
