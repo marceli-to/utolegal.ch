@@ -12,3 +12,23 @@ body {
 p {
   @apply mb-20;
 }
+
+strong, b {
+  @apply font-grotesk-bold;
+}
+
+em, i {
+  @apply font-grotesk-italic;
+}
+
+section ul:not(section nav ul) {
+  @apply m-0 mb-20 p-0;
+}
+
+section li:not(section nav li) {
+  @apply list-item list-disc ml-18;
+}
+
+section li:not(section nav li) > p {
+  @apply mb-0;
+}

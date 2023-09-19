@@ -54,6 +54,56 @@ tabs:
               visibility: visible
               hide_display: false
               localizable: true
+              sets:
+                contacts:
+                  display: Contacts
+                  instructions: null
+                  icon: user-multiple
+                  sets:
+                    contacts:
+                      display: Contacts
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: team
+                          field:
+                            mode: default
+                            create: true
+                            collections:
+                              - team
+                            type: entries
+                            display: Team
+                            icon: entries
+                            localizable: false
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+  media:
+    display: Media
+    sections:
+      -
+        fields:
+          -
+            handle: images
+            field:
+              min_files: 1
+              mode: list
+              container: assets
+              folder: images
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Images
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:

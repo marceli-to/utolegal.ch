@@ -1,1 +1,38 @@
-{{ content }}
+<section class="md:grid md:grid-cols-12 md:gap-x-16">
+  {{ if images }}
+    {{ images sort="random" limit="1" }}
+      <figure class="mb-40 md:mb-28 lg:mb-0 md:col-span-12 lg:col-span-6">
+        <a href="{{ company:google_maps_uri }}" title="Google Maps">
+          {{ partial:components/picture title="Google Maps" :image="url" sizes="(min-width: 768px) 900px, (min-width: 1024px) 1200px, 640px" }}
+        </a>
+        <figcaption class="md:mt-12 hidden md:grid md:grid-cols-12 md:gap-x-16">
+          <a href="{{ company:google_maps_uri }}" title="Google Maps" class="block md:col-span-12 lg:col-span-5 lg:col-start-3 text-sm md:text-sm lg:text-md">
+            <span class="inline-flex items-center leading-none">
+              In Google Maps öffnen
+              {{ partial:icons/chevron-right class="ml-8" }}
+            </span>
+          </a>
+        </figcaption>
+      </figure>
+    {{ /images }}
+  {{ /endif }}
+  <div class="md:col-span-7 md:col-start-4 lg:col-span-4 lg:col-start-8 xl:col-span-4 xl:col-start-8 hyphens-auto">
+    {{ content }}
+      {{ if type == 'text' }}
+        {{ text }}
+      {{ /if }}
+      {{ if type == 'contacts' }}
+        <div class="mb-32">
+          {{ team }}
+            <h2 class="font-grotesk-bold">{{ title }}</h2>
+            <p>
+              <a href="mailto:{{ email }}" title="E-Mail {{ title }}" class="hover:text-graphite transition-colors">
+                {{ email }}
+              </a>
+            </p>
+          {{ /team }}
+        </div>
+      {{ /if }}
+    {{ /content }}
+  </div>
+</section>    

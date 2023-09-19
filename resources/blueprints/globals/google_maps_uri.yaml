@@ -1,0 +1,19 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: google_maps_uri
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Google Maps URI'
+              icon: text
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false

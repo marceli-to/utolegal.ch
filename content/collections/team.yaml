@@ -5,6 +5,7 @@ sites:
 propagate: false
 template: templates/content/team/show
 layout: templates/layout
+mount: ca3809dd-8d68-48f0-bc2a-652f2f52b673
 revisions: false
 route: 'team/{slug}'
 sort_dir: asc
@@ -18,4 +19,5 @@ preview_targets:
     refresh: true
 structure:
   root: false
+  max_depth: 2
   slugs: true

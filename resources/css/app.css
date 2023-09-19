@@ -5,3 +5,4 @@
 @import "tailwindcss/utilities";
 
 @import "layout/base.css";
+@import "components/collapsible.css";

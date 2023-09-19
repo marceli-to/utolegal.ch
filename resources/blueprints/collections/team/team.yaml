@@ -65,7 +65,7 @@ tabs:
               validate:
                 - required
           -
-            handle: e-mail
+            handle: email
             field:
               input_type: email
               antlers: false
@@ -90,46 +90,6 @@ tabs:
               instructions_position: above
               visibility: visible
               hide_display: false
-          -
-            handle: vcard
-            field:
-              mode: list
-              container: assets
-              folder: downloads
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
-              type: assets
-              display: V-Card
-              icon: assets
-              localizable: false
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              hide_display: false
-          -
-            handle: portrait
-            field:
-              max_files: 1
-              min_files: 1
-              mode: list
-              container: assets
-              folder: images
-              restrict: true
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
-              type: assets
-              display: Portrait
-              icon: assets
-              localizable: false
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              hide_display: false
-              validate:
-                - required
           -
             handle: description
             field:
@@ -166,6 +126,80 @@ tabs:
               instructions_position: above
               visibility: visible
               hide_display: false
+          -
+            handle: facts
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    collapsible:
+                      display: Collapsible
+                      instructions: null
+                      icon: form-drop-down-menu
+                      fields:
+                        -
+                          import: collapsible
+              type: replicator
+              display: Facts
+              icon: replicator
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+  media:
+    display: Media
+    sections:
+      -
+        fields:
+          -
+            handle: portrait
+            field:
+              max_files: 1
+              min_files: 1
+              mode: list
+              container: assets
+              folder: images
+              restrict: true
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Portrait
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: vcard
+            field:
+              mode: list
+              container: assets
+              folder: downloads
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: V-Card
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              max_files: 1
+              min_files: 1
   sidebar:
     display: Sidebar
     sections:
@@ -185,4 +219,16 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
+          -
+            handle: show_privacy_menu
+            field:
+              default: true
+              type: toggle
+              display: 'Show privacy menu'
+              icon: toggle
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
 title: Team
