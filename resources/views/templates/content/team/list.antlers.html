@@ -6,7 +6,7 @@
           <a 
             href="{{ permalink }}" 
             title="{{ title }}">
-            {{ partial:components/picture :title="title" :image="portrait" class="hidden md:block" }}
+            {{ partial:components/picture :title="title" :image="portrait" class="hidden md:block" :width="portrait:width" :height="portrait:height"  }}
           </a>
         </div>
       {{ /collection:team }}
