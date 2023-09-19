@@ -3,7 +3,7 @@ id: home
 blueprint: pages
 title: 'Uto Legal'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695159460
+updated_at: 1695161809
 template: templates/content/home
 show_privacy_menu: true
 images:
@@ -16,7 +16,29 @@ content:
     content:
       -
         type: text
-        text: 'Uto Legal sind die Rechtsanwälte Patrick Dehmer, Stephan W. Feierabend, Dr. Annatina Menn, Dr. Marco Neeser, Gianandrea Prader und Dr. Alesch Staehelin. Sie kombinieren ihre juristische Kompetenz mit langjähriger Erfahrung und fundierten branchenspezifischen Kenntnissen. Im Interesse ihrer Klientinnen und Klienten streben sie stets nach massgeschneiderten, effizienten und kreativen Lösungen. Persönlich, leidenschaftlich und auf den Punkt.'
+        text: 'Uto Legal sind die Rechtsanwälte Patrick '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Dehmer
+      -
+        type: text
+        text: ', Stephan W. Feierabend, Dr. '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Annatina
+      -
+        type: text
+        text: ' Menn, Dr. Marco Neeser, Gianandrea Prader und Dr. Alesch Staehelin. Sie kombinieren ihre juristische Kompetenz mit langjähriger Erfahrung und fundierten branchenspezifischen Kenntnissen. Im Interesse ihrer Klientinnen und Klienten streben sie stets nach massgeschneiderten, effizienten und kreativen Lösungen. Persönlich, leidenschaftlich und auf den Punkt.'
   -
     type: paragraph
     content:

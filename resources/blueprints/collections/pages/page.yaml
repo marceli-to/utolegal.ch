@@ -25,6 +25,7 @@ tabs:
                 - orderedlist
                 - removeformat
                 - anchor
+                - nobreak
               smart_typography: false
               save_html: false
               inline: false

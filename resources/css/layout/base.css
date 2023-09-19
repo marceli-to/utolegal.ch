@@ -32,3 +32,7 @@ section li:not(section nav li) {
 section li:not(section nav li) > p {
   @apply mb-0;
 }
+
+.nobr {
+  @apply hyphens-none;
+}
