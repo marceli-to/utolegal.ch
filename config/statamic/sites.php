@@ -19,14 +19,14 @@ return [
           'name' => 'Deutsch',
           'locale' => 'de_CH',
           'short_name' => 'D',
-          'url' => '/',
+          'url' => env('APP_URL'),
         ],
 
         'en' => [
           'name' => 'English',
           'locale' => 'en_US',
           'short_name' => 'E',
-          'url' => '/en/',
+          'url' => env('APP_URL') . '/en/',
         ],
 
     ],

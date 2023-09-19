@@ -200,6 +200,42 @@ tabs:
               hide_display: false
               max_files: 1
               min_files: 1
+  seo:
+    display: SEO
+    sections:
+      -
+        fields:
+          -
+            handle: open_graph_description
+            field:
+              antlers: false
+              type: textarea
+              display: Description
+              icon: textarea
+              localizable: true
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: open_graph_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              folder: images
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Open Graph Image'
+              icon: assets
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:
