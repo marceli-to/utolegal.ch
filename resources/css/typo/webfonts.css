@@ -11,6 +11,7 @@
     src: url('$fonts/FunktionalGrotesk-Bold.eot?iefix') format('eot'),url('$fonts/FunktionalGrotesk-Bold.woff') format('woff'), url('$fonts/FunktionalGrotesk-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 
   @font-face {
@@ -19,6 +20,7 @@
     src: url('$fonts/FunktionalGrotesk-Medium.eot?iefix') format('eot'),url('$fonts/FunktionalGrotesk-Medium.woff') format('woff'), url('$fonts/FunktionalGrotesk-Medium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 
   @font-face {
@@ -27,6 +29,7 @@
     src: url('$fonts/FunktionalGrotesk-Regular.eot?#iefix') format('embedded-opentype'), url('$fonts/FunktionalGrotesk-Regular.woff') format('woff'), url('$fonts/FunktionalGrotesk-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
   }
 
   @font-face {
