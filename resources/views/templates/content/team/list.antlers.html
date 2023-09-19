@@ -6,7 +6,7 @@
           <a 
             href="{{ permalink }}" 
             title="{{ title }}">
-            {{ partial:components/picture :title="title" :image="portrait" sizes="(min-width: 768px) 600px, (min-width: 1024px) 800px, 600px" }}
+            {{ partial:components/picture :title="title" :image="portrait" class="hidden md:block" }}
           </a>
         </div>
       {{ /collection:team }}

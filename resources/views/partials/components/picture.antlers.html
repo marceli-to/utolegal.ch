@@ -1,30 +1,14 @@
-<picture class="block w-full">
-  {{# <source
-    srcset="
-        {{ glide:image preset='sm-avif' }} 320w,
-        {{ glide:image preset='md-avif' }} 480w,
-        {{ glide:image preset='lg-avif' }} 768w,
-        {{ glide:image preset='xl-avif' }} 1280w,
-        {{ glide:image preset='2xl-avif' }} 1440w"
-    sizes="{{ sizes }}"
-    type="image/avif"
-  > #}}
-  <source
-    srcset="
-        {{ glide:image preset='sm-webp' }} 320w,
-        {{ glide:image preset='md-webp' }} 480w,
-        {{ glide:image preset='lg-webp' }} 768w,
-        {{ glide:image preset='xl-webp' }} 1280w,
-        {{ glide:image preset='2xl-webp' }} 1440w"
-    sizes="{{ sizes }}"
-    type="image/webp"
-  >
+<picture class="w-full">
+  <source media="(min-width: 768px)" srcset="{{ glide:image preset='lg-webp' }}" type="image/webp">
+  <source srcset="{{ glide:image preset='md-webp' }}" type="image/webp">
   <img 
-    src="{{ glide:image preset='md' }}"
-    width="1600" 
-    height="900" 
-    class="block object-cover w-full h-full" 
-    alt="{{ title }}"
-    title="{{ title }}"
-    loading="lazy">
+    src="{{ glide:image preset='md' }}" 
+    alt="{{ title }}" 
+    title="{{ title }}" 
+    height="1600" 
+    width="900"
+    class="{{ class }}"
+    {{ if lazy }}
+    loading="lazy"
+    {{ /if }}>
 </picture>

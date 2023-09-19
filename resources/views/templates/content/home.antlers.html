@@ -2,7 +2,7 @@
   {{ if images }}
     {{ images sort="random" limit="1" }}
       <figure class="mb-40 md:mb-28 md:col-span-12 lg:col-span-6">
-        {{ partial:components/picture :image="url" sizes="(min-width: 768px) 900px, (min-width: 1024px) 1200px, 640px" }}
+        {{ partial:components/picture :image="url" }}
       </figure>
     {{ /images }}
   {{ /endif }}

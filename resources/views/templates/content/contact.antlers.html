@@ -3,7 +3,7 @@
     {{ images sort="random" limit="1" }}
       <figure class="mb-40 md:mb-28 lg:mb-0 md:col-span-12 lg:col-span-6">
         <a href="{{ company:google_maps_uri }}" title="Google Maps">
-          {{ partial:components/picture title="Google Maps" :image="url" sizes="(min-width: 768px) 900px, (min-width: 1024px) 1200px, 640px" }}
+          {{ partial:components/picture title="Google Maps" :image="url" }}
         </a>
         <figcaption class="md:mt-12 hidden md:grid md:grid-cols-12 md:gap-x-16">
           <a href="{{ company:google_maps_uri }}" title="Google Maps" class="block md:col-span-12 lg:col-span-5 lg:col-start-3 text-sm md:text-sm lg:text-md">
