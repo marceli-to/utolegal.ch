@@ -6,7 +6,7 @@ import { resolve } from 'path';
 export default defineConfig({
   resolve: {
     alias: {
-      $fonts: resolve('./static/fonts')
+      $fonts: resolve('./public/fonts')
     }
   },
   plugins: [

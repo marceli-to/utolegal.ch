@@ -1,6 +1,54 @@
 {
+  "public/fonts/FunktionalGrotesk-Bold.eot": {
+    "file": "assets/FunktionalGrotesk-Bold-aa075233.eot",
+    "src": "public/fonts/FunktionalGrotesk-Bold.eot"
+  },
+  "public/fonts/FunktionalGrotesk-Bold.woff": {
+    "file": "assets/FunktionalGrotesk-Bold-bccb8ee0.woff",
+    "src": "public/fonts/FunktionalGrotesk-Bold.woff"
+  },
+  "public/fonts/FunktionalGrotesk-Bold.woff2": {
+    "file": "assets/FunktionalGrotesk-Bold-ddbefeba.woff2",
+    "src": "public/fonts/FunktionalGrotesk-Bold.woff2"
+  },
+  "public/fonts/FunktionalGrotesk-Medium.eot": {
+    "file": "assets/FunktionalGrotesk-Medium-e17e9da9.eot",
+    "src": "public/fonts/FunktionalGrotesk-Medium.eot"
+  },
+  "public/fonts/FunktionalGrotesk-Medium.woff": {
+    "file": "assets/FunktionalGrotesk-Medium-066e3d8d.woff",
+    "src": "public/fonts/FunktionalGrotesk-Medium.woff"
+  },
+  "public/fonts/FunktionalGrotesk-Medium.woff2": {
+    "file": "assets/FunktionalGrotesk-Medium-45d6d1e9.woff2",
+    "src": "public/fonts/FunktionalGrotesk-Medium.woff2"
+  },
+  "public/fonts/FunktionalGrotesk-Regular.eot": {
+    "file": "assets/FunktionalGrotesk-Regular-7963e26c.eot",
+    "src": "public/fonts/FunktionalGrotesk-Regular.eot"
+  },
+  "public/fonts/FunktionalGrotesk-Regular.woff": {
+    "file": "assets/FunktionalGrotesk-Regular-64698fd8.woff",
+    "src": "public/fonts/FunktionalGrotesk-Regular.woff"
+  },
+  "public/fonts/FunktionalGrotesk-Regular.woff2": {
+    "file": "assets/FunktionalGrotesk-Regular-f75442ee.woff2",
+    "src": "public/fonts/FunktionalGrotesk-Regular.woff2"
+  },
+  "public/fonts/FunktionalGrotesk-RegularItalic.eot": {
+    "file": "assets/FunktionalGrotesk-RegularItalic-6977bd9d.eot",
+    "src": "public/fonts/FunktionalGrotesk-RegularItalic.eot"
+  },
+  "public/fonts/FunktionalGrotesk-RegularItalic.woff": {
+    "file": "assets/FunktionalGrotesk-RegularItalic-0e60bd7f.woff",
+    "src": "public/fonts/FunktionalGrotesk-RegularItalic.woff"
+  },
+  "public/fonts/FunktionalGrotesk-RegularItalic.woff2": {
+    "file": "assets/FunktionalGrotesk-RegularItalic-9aceb9bf.woff2",
+    "src": "public/fonts/FunktionalGrotesk-RegularItalic.woff2"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-5fbff12a.css",
+    "file": "assets/app-ab5c6194.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
