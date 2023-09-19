@@ -1,7 +1,7 @@
 <section class="flex flex-col md:grid md:grid-cols-12 md:gap-x-16 relative">
   
   <div class="md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-8 mb-40 md:mb-32 lg:absolute lg:-top-77">
-    <a href="{{ link to="team"}}" class="inline-block">
+    <a href="{{ link to="team"}}" class="inline-block" title="{{ trans key="Zurück" }}">
       {{ partial:icons/arrow-back}}
     </a>
   </div>
@@ -9,8 +9,8 @@
   <div class="order-1 md:order-2 md:mb-28 lg:mb-0 md:col-span-9 md:col-start-4 lg:col-span-4 lg:col-start-8 xl:col-span-3 xl:col-start-8">
     <h1 class="font-grotesk-bold">{{ firstname }} {{ lastname }}</h1>
     <strong>{{ jobtitle}}</strong><br>
-    <a href="mailto:{{ email }}" target="_blank" title="{{ email }}" class="hover:text-graphite transition-colors">{{ email }}</a><br>
-    <a href="tel:{{ phone }}" target="_blank" title="{{ phone }}" class="hover:text-graphite transition-colors">{{ phone }}</a><br>
+    <a href="mailto:{{ email }}" target="_blank" title="{{ trans key="E-Mail Adresse" }}" class="hover:text-graphite transition-colors">{{ email }}</a><br>
+    <a href="tel:{{ phone }}" target="_blank" title="{{ trans key="Telefonnummer" }}" class="hover:text-graphite transition-colors">{{ phone }}</a><br>
     {{ if vcard }}
       <a href="{{ vcard }}" title="Download V-Card" target="_blank" class="font-grotesk-italic hover:text-graphite transition-colors">V-Card</a>
     {{ /if }}

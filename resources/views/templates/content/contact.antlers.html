@@ -2,7 +2,7 @@
   {{ if images }}
     {{ images sort="random" limit="1" }}
       <figure class="mb-40 md:mb-28 lg:mb-0 md:col-span-12 lg:col-span-6">
-        <a href="{{ company:google_maps_uri }}" title="Google Maps">
+        <a href="{{ company:google_maps_uri }}" title="{{ trans key="Google Maps öffnen" }}">
           {{ partial:components/picture title="Google Maps" :image="url" }}
         </a>
         <figcaption class="md:mt-12 hidden md:grid md:grid-cols-12 md:gap-x-16">
