@@ -13,7 +13,7 @@ description:
     content:
       -
         type: text
-        text: 'Alesch Staehelin berät und vertritt Klienten in den Bereichen "Data, IT/IP & Media": Er entwirft, prüft und verhandelt Verträge aller Art (insbesondere komplexe, zeitkritische und grenzüberschreitende Tech-Deals), er berät in Fragen des Datenschutzes, der IT-Sicherheit, der digitalen Transformation, der neuen Technologien (z.B. KI und IoT), der sozialen Medien, des E-Commerce, des Urheber-, Unterhaltungs- und Medienrechts, des Marken-, Design- und Patentrechts (inkl. Know-how-Schutz) und des Wettbewerbsrechts, er vermittelt in strittigen Projekten, und er führt Gerichts- und Schiedsverfahren. Alesch ist Lehrbeauftragter an diversen Schweizer Universitäten und ehemaliger Journalist (u.a. NZZ).'
+        text: 'Alesch Staehelin berät und vertritt Klienten in den Bereichen «Data, IT/IP & Media»: Er entwirft, prüft und verhandelt Verträge aller Art (insbesondere komplexe, zeitkritische und grenzüberschreitende Tech-Deals), er berät in Fragen des Datenschutzes, der IT-Sicherheit, der digitalen Transformation, der neuen Technologien (z.B. KI und IoT), der sozialen Medien, des E-Commerce, des Urheber-, Unterhaltungs- und Medienrechts, des Marken-, Design- und Patentrechts (inkl. Know-how-Schutz) und des Wettbewerbsrechts, er vermittelt in strittigen Projekten, und er führt Gerichts- und Schiedsverfahren. Alesch ist Lehrbeauftragter an diversen Schweizer Universitäten und ehemaliger Journalist (u.a. NZZ).'
 updated_by: 49862616-3811-407d-aebb-463013b87200
 updated_at: 1695202171
 vcard: downloads/vcard-patrick-dehmer.vcf
@@ -94,7 +94,7 @@ facts:
             type: hardBreak
           -
             type: text
-            text: 'LL.M. in "Entertainment Law", University of California, Los Angeles (UCLA School of Law)'
+            text: 'LL.M. in «Entertainment Law», University of California, Los Angeles (UCLA School of Law)'
       -
         type: paragraph
         content:
@@ -127,7 +127,7 @@ facts:
             type: hardBreak
           -
             type: text
-            text: 'Studien in "Music Business" und "Political Science", City University of New York'
+            text: 'Studien in «Music Business» und «Political Science», City University of New York'
     type: collapsible
     enabled: true
   -
@@ -163,7 +163,7 @@ facts:
         content:
           -
             type: text
-            text: 'ITechLaw ("Responsible AI Committee")'
+            text: 'ITechLaw («Responsible AI Committee»)'
     type: collapsible
     enabled: true
   -
@@ -175,19 +175,19 @@ facts:
         content:
           -
             type: text
-            text: 'Legal 500: "Simply one of the best in his field", "fantastic … for data, IT/IP & media and beyond providing great value for reasonable prices", erwähnt in den Kapiteln "Data Privacy & Protection", "TMT" und "IP".'
+            text: 'Legal 500: «Simply one of the best in his field», «fantastic … for data, IT/IP & media and beyond providing great value for reasonable prices», erwähnt in den Kapiteln «Data Privacy & Protection», «TMT» und «IP».'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Who’s Who Legal (WWL): Führender Anwalt in "Data Law" – "possesses a brilliant mind" und "has substantial experience with all types of data-related contracts".'
+            text: 'Who’s Who Legal (WWL): Führender Anwalt in «Data Law» – «possesses a brilliant mind» und «has substantial experience with all types of data-related contracts».'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'The Best Lawyers in Switzerland: Empfohlen für "Information Technology Law", "Outsourcing Law" und "Technology Law".'
+            text: 'The Best Lawyers in Switzerland: Empfohlen für «Information Technology Law», «Outsourcing Law» und «Technology Law».'
     type: collapsible
     enabled: true
   -
@@ -202,6 +202,6 @@ facts:
             text: 'Deutsch, Englisch'
     type: collapsible
     enabled: true
-open_graph_description: 'Alesch Staehelin berät und vertritt Klienten in den Bereichen "Data, IT/IP & Media": Er entwirft, prüft und verhandelt Verträge aller Art (insbesondere komplexe, zeitkritische und grenzüberschreitende Tech-Deals), er berät in Fragen des Datenschutzes, der IT-Sicherheit, der digitalen Transformation, der neuen Technologien (z.B. KI und IoT), der sozialen Medien, des E-Commerce, des Urheber-, Unterhaltungs- und Medienrechts, des Marken-, Design- und Patentrechts (inkl. Know-how-Schutz) und des Wettbewerbsrechts, er vermittelt in strittigen Projekten, und er führt Gerichts- und Schiedsverfahren. Alesch ist Lehrbeauftragter an diversen Schweizer Universitäten und ehemaliger Journalist (u.a. NZZ).'
+open_graph_description: 'Alesch Staehelin berät und vertritt Klienten in den Bereichen «Data, IT/IP & Media»: Er entwirft, prüft und verhandelt Verträge aller Art (insbesondere komplexe, zeitkritische und grenzüberschreitende Tech-Deals), er berät in Fragen des Datenschutzes, der IT-Sicherheit, der digitalen Transformation, der neuen Technologien (z.B. KI und IoT), der sozialen Medien, des E-Commerce, des Urheber-, Unterhaltungs- und Medienrechts, des Marken-, Design- und Patentrechts (inkl. Know-how-Schutz) und des Wettbewerbsrechts, er vermittelt in strittigen Projekten, und er führt Gerichts- und Schiedsverfahren. Alesch ist Lehrbeauftragter an diversen Schweizer Universitäten und ehemaliger Journalist (u.a. NZZ).'
 portrait: images/utolegal_team_alesch_staehlin.jpg
 ---

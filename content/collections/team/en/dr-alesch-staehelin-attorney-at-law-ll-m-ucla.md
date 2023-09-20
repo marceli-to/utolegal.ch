@@ -167,7 +167,7 @@ facts:
         content:
           -
             type: text
-            text: 'Legal 500: "Simply one of the best in his field", "fantastic … for data, IT/IP & media and beyond providing great value for rea-sonable prices", listed in the chapters "Data Privacy & Protection", "TMT" and "IP". Who’s Who Legal (WWL): Leading attorney in "Data Law", "possesses a brilliant mind" and "has substantial experience with all types of data-related contracts". The Best Lawyers in Switzerland: Recommended for "Information Technology Law", "Outsourcing Law" and "Technology Law".'
+            text: 'Legal 500: “Simply one of the best in his field”, “fantastic … for data, IT/IP & media and beyond providing great value for rea-sonable prices“, listed in the chapters “Data Privacy & Protection“, “TMT“ and “IP“. Who’s Who Legal (WWL): Leading attorney in “Data Law“, “possesses a brilliant mind“ and “has substantial experience with all types of data-related contracts“. The Best Lawyers in Switzerland: Recommended for “Information Technology Law”, “Outsourcing Law” and “Technology Law”.'
     type: collapsible
     enabled: true
   -
