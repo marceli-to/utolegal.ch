@@ -3,7 +3,7 @@ id: 85e4936d-23d1-4ae4-99f2-e7db0d383843
 origin: home
 open_graph_description: 'Uto Legal are the attorneys Patrick Dehmer, Stephan W. Feierabend, Dr. Annatina Menn, Dr. Marco Neeser, Gianandrea Prader and Dr. Alesch Staehelin. They combine their legal expertise with many years of experience and in-depth industry-specific knowledge. In the interest of their clients, they always strive for tailor-made, efficient and creative solutions. Personal, passionate and to the point.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695159742
+updated_at: 1695231615
 content:
   -
     type: paragraph
