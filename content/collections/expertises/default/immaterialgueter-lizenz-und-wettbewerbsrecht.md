@@ -3,7 +3,7 @@ id: b247baf5-6c15-4164-be74-cd94be1d3156
 blueprint: expertise
 title: 'Immaterialgüter-, Lizenz- und Wettbewerbsrecht'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695195714
+updated_at: 1695215440
 show_privacy_menu: true
 open_graph_description: 'Wir sind Ansprechpartner für sämtliche Akteure aus der Kreativwirtschaft, der Werbe- und Kommunikationsbrache, der Start-Up-Szene sowie alle sonstigen Unternehmen und Privatpersonen, die mit geistigem Eigentum befasst sind. Wir vertreten die Interessen von Rechteinhabern genauso wie diejenigen von Nutzerinnen immaterieller Werke und Leistungen. Wir unterstützen Unternehmen bei der Entwicklung ihrer IP-Strategie, bei der erfolgreichen Lancierung neuer Produkte und bei der Verteidigung, Lizenzierung und Übertragung ihres geistigen Eigentums.'
 content:
@@ -18,7 +18,7 @@ content:
     content:
       -
         type: text
-        text: "\_Wir unterstützen unsere Klientinnen und Klienten in folgenden Rechtsgebieten:"
+        text: 'Wir unterstützen unsere Klientinnen und Klienten in folgenden Rechtsgebieten:'
   -
     type: bulletList
     content:
