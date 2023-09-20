@@ -2,14 +2,14 @@
   {{ if is_homepage }}
     <a 
       href="{{ route }}" 
-      class="block font-grotesk-bold py-8 md:py-0  hover:text-graphite !leading-none transition-colors {{ class }} {{ is_current ? 'text-graphite' : 'text-black' }}"
+      class="block font-grotesk-bold text-lg md:text-md lg:text-lg py-8 md:py-0 hover:text-graphite !leading-none transition-colors {{ class }} {{ is_current ? 'text-graphite' : 'text-black' }}"
       title="{{ title }}">
       {{ title }}
     </a>
   {{ else }}
     <a 
       href="{{ route }}" 
-      class="block font-grotesk-bold py-8 md:py-0 hover:text-black !leading-none transition-colors {{ class }} {{ is_current || is_parent ? 'text-black' : 'text-graphite' }}"
+      class="block font-grotesk-bold text-lg md:text-md lg:text-lg py-8 md:py-0 hover:text-black !leading-none transition-colors {{ class }} {{ is_current || is_parent ? 'text-black' : 'text-graphite' }}"
       title="{{ title }}">
       {{ title }}
     </a>

@@ -2,7 +2,7 @@
   {{ locales current_first="false" sort="name"}}
     <a 
       href="{{ permalink }}" 
-      class="block font-grotesk-bold {{ is_homepage ? 'text-black hover:text-graphite' : 'text-graphite hover:text-black' }} py-8 md:py-0 !leading-none transition-colors {{ class }}"
+      class="block font-grotesk-bold text-lg md:text-md lg:text-lg {{ is_homepage ? 'text-black hover:text-graphite' : 'text-graphite hover:text-black' }} py-8 md:py-0 !leading-none transition-colors {{ class }}"
       title="{{ title }} ({{ locale.name | substr(0, 1) }})">
       {{ locale.name | substr(0, 1) }}
     </a>

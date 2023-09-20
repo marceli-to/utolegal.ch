@@ -6,7 +6,7 @@
         <a 
           href="{{ permalink }}" 
           title="{{ title }}" 
-          class="{{ has_arrow ? 'flex justify-between' : 'block' }} font-grotesk-bold transition-colors py-8 md:py-0 md:mb-16 {{ is_detail ? 'text-graphite hover:text-black' : 'text-black hover:text-graphite' }} {{ current_uri == url ? '!text-black' : ''}}">
+          class="{{ has_arrow ? 'flex justify-between' : 'block' }} hyphens-none font-grotesk-bold transition-colors py-8 md:py-0 md:mb-16 {{ is_detail ? 'text-graphite hover:text-black' : 'text-black hover:text-graphite' }} {{ current_uri == url ? '!text-black' : ''}}">
           {{ title }}
           {{ if has_arrow }}
             {{ partial:icons/chevron-right class="ml-8 mt-4 lg:hidden" }}

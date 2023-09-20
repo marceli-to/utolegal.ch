@@ -3,7 +3,7 @@ id: home
 blueprint: pages
 title: 'Uto Legal'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695161809
+updated_at: 1695214222
 template: templates/content/home
 show_privacy_menu: true
 images:
@@ -27,7 +27,18 @@ content:
         text: Dehmer
       -
         type: text
-        text: ', Stephan W. Feierabend, Dr. '
+        text: ', '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Stephan
+      -
+        type: text
+        text: ' W. Feierabend, Dr. '
       -
         type: text
         marks:
@@ -38,7 +49,62 @@ content:
         text: Annatina
       -
         type: text
-        text: ' Menn, Dr. Marco Neeser, Gianandrea Prader und Dr. Alesch Staehelin. Sie kombinieren ihre juristische Kompetenz mit langjähriger Erfahrung und fundierten branchenspezifischen Kenntnissen. Im Interesse ihrer Klientinnen und Klienten streben sie stets nach massgeschneiderten, effizienten und kreativen Lösungen. Persönlich, leidenschaftlich und auf den Punkt.'
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Menn
+      -
+        type: text
+        text: ', Dr. Marco '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Neeser
+      -
+        type: text
+        text: ', '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Gianandrea
+      -
+        type: text
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Prader
+      -
+        type: text
+        text: ' und Dr. Alesch '
+      -
+        type: text
+        marks:
+          -
+            type: btsSpan
+            attrs:
+              class: nobr
+        text: Staehelin
+      -
+        type: text
+        text: '. Sie kombinieren ihre juristische Kompetenz mit langjähriger Erfahrung und fundierten branchenspezifischen Kenntnissen. Im Interesse ihrer Klientinnen und Klienten streben sie stets nach massgeschneiderten, effizienten und kreativen Lösungen. Persönlich, leidenschaftlich und auf den Punkt.'
   -
     type: paragraph
     content:
