@@ -4,7 +4,8 @@ blueprint: expertise
 title: 'Straf- und Strafprozessrecht, Compliance'
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695137470
+updated_at: 1695194398
+open_graph_description: 'Aufgrund unserer fundierten Kenntnisse sind wir die spezialisierten Ansprechpartner für unsere Klientinnen und Klienten in allen rechtlichen Belangen mit Berührungspunkten zum Strafrecht.'
 content:
   -
     type: paragraph

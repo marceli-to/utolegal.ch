@@ -1,18 +1,17 @@
 ---
-id: eb8cfbf5-611a-4f64-b15b-0fe941754955
-blueprint: expertise
-title: Vertragsrecht
-show_privacy_menu: true
+id: cd9378f1-fe88-43ea-b54d-21d8d1a04dc3
+origin: eb8cfbf5-611a-4f64-b15b-0fe941754955
+title: 'Contract Law'
+open_graph_description: 'We have extensive experience in advising on, negotiating, and drafting all commercially relevant types of contracts.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695194258
-open_graph_description: 'Wir verfügen über grosse Erfahrung bei der Beratung, Verhandlung und Gestaltung von sämtlichen wirtschaftlich relevanten Vertragsarten.'
+updated_at: 1695194249
 content:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Wir verfügen über grosse Erfahrung bei der Beratung, Verhandlung und Gestaltung von sämtlichen wirtschaftlich relevanten Vertragsarten wie insbesondere:'
+        text: 'We have extensive experience in advising on, negotiating, and drafting all commercially relevant types of contracts such as, in particular:'
   -
     type: bulletList
     content:
@@ -24,7 +23,7 @@ content:
             content:
               -
                 type: text
-                text: 'Verträge im Immaterialgüter-, Unterhaltungs- und Kunstrecht'
+                text: 'Contracts regarding intellectual property, entertainment, and art'
       -
         type: listItem
         content:
@@ -33,7 +32,7 @@ content:
             content:
               -
                 type: text
-                text: Kaufverträge
+                text: 'Contracts in the tech and content industry, including data agreements and technology transfers'
       -
         type: listItem
         content:
@@ -42,7 +41,7 @@ content:
             content:
               -
                 type: text
-                text: Aufträge
+                text: 'Purchase contracts'
       -
         type: listItem
         content:
@@ -51,7 +50,7 @@ content:
             content:
               -
                 type: text
-                text: 'Werkverträge (insbesondere Total- / Generalunternehmer-Werkverträge und sonstige das Bauwesen betreffende Verträge)'
+                text: Orders
       -
         type: listItem
         content:
@@ -60,7 +59,7 @@ content:
             content:
               -
                 type: text
-                text: 'Lizenz- und Vertriebsverträge'
+                text: 'Contracts for work and services (in particular total/general contractor contracts for work and services and other contracts relating to the construction industry)'
       -
         type: listItem
         content:
@@ -69,7 +68,7 @@ content:
             content:
               -
                 type: text
-                text: 'Lieferverträge, Agenturverträge'
+                text: 'Licensing and distribution agreements'
       -
         type: listItem
         content:
@@ -78,7 +77,7 @@ content:
             content:
               -
                 type: text
-                text: 'Verträge über Technologietransfers und allgemein im Bereich des Informationstechnologierechts'
+                text: 'Supply contracts, agency contracts'
       -
         type: listItem
         content:
@@ -87,7 +86,7 @@ content:
             content:
               -
                 type: text
-                text: 'Miet- und Pachtverträge'
+                text: 'Rental and lease agreements'
       -
         type: listItem
         content:
@@ -96,7 +95,7 @@ content:
             content:
               -
                 type: text
-                text: Franchiseverträge
+                text: 'Franchise agreements'
       -
         type: listItem
         content:
@@ -105,7 +104,7 @@ content:
             content:
               -
                 type: text
-                text: Sponsoringverträge
+                text: 'Sponsorship agreements'
       -
         type: listItem
         content:
@@ -114,11 +113,11 @@ content:
             content:
               -
                 type: text
-                text: 'Aktionärsbindungs- und Investmentverträge'
+                text: 'Shareholder agreements and investment contracts'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Wir bieten auch Beratung bei und Gestaltung von Allgemeinen Geschäftsbedingungen (AGB) sowie von auf die Bedürfnisse der Klientschaft zugeschnittenen Standardverträgen'
+        text: 'We also offer advice on and draft general terms and conditions (GTC) as well as standard contracts tailored to the needs of our clients.'
 ---

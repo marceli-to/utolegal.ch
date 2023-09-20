@@ -4,7 +4,8 @@ blueprint: expertise
 title: Arbeitsrecht
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695137379
+updated_at: 1695194291
+open_graph_description: 'Wir beraten und vertreten Arbeitgeberinnen und Arbeitnehmer in allen Aspekten des Arbeitsrechts und des öffentlichen Personalrechts.'
 content:
   -
     type: paragraph

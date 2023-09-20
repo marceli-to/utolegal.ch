@@ -4,7 +4,8 @@ blueprint: expertise
 title: 'Unterhaltungs- und Kunstrecht'
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695137137
+updated_at: 1695193982
+open_graph_description: 'Im Kunstrecht befassen wir uns regelmässig mit in- und ausländischen Transaktionen von Kunstobjekten, Leih-, Transport- und Versicherungsverträgen, mit Schadenfällen, Authentizitäts- und Restitutionsfragen sowie mit rechtlichen Fragen rund um den internationalen Kulturgütertransfer. Wir beraten Kunstschaffende oder Auftraggebende bei Werkverträgen (insbesondere Kunst am Bau), Erben und Nachlassverwalter beim Umgang mit einem Künstlernachlässen. Wir unterstützen Künstlerinnen und Künstler, Galerien, Museen und Sammlerinnen in vertrags- und urheberrechtlichen Fragen und vertreten ihre Interessen vor Gericht.'
 content:
   -
     type: paragraph
