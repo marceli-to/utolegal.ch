@@ -5,7 +5,9 @@
         <div class="md:col-span-4">
           <a 
             href="{{ permalink }}" 
-            title="{{ title }}">
+            title="{{ title }}"
+            class="team-portrait block"
+            id="{{ id }}">
             {{ partial:components/picture :title="title" :image="portrait" class="hidden md:block" :width="portrait:width" :height="portrait:height"  }}
           </a>
         </div>
@@ -20,7 +22,8 @@
           <a 
             href="{{ permalink }}" 
             title="{{ title }}" 
-            class="block font-grotesk-bold text-black hover:text-graphite transition-colors py-8 md:py-0 md:mb-16">
+            id="{{ id }}"
+            class="team-menu-item block font-grotesk-bold text-black hover:text-graphite transition-colors py-8 md:py-0 md:mb-16">
             {{ title }}
           </a>
         </li>

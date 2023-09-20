@@ -16,7 +16,7 @@ description:
         type: text
         text: 'Annatina Menn berät und vertritt in- und ausländische Akteure der verschiedenen Unterhaltungs- und Kreativindustrien, der Kunst- und Kulturbranche sowie diverser Technologiesektoren. Sie praktiziert entsprechend vorwiegend im Kunstrecht, im Urheberrecht, im Design- und Markenrecht, im Film- und Fernsehrecht, im Medien- und Kommunikationsrecht, im Lauterkeitsrecht sowie im Vertragsrecht. Zudem verfügt Annatina Menn über grosse Erfahrung im Planungs-, Bau- und Immobilienrecht. Sie prozessiert regelmässig vor Schweizer Gerichten. Ihren Doktortitel erwarb sie im Filmurheberrecht.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695126565
+updated_at: 1695192714
 vcard: downloads/vcard-patrick-dehmer.vcf
 show_privacy_menu: true
 facts:
@@ -151,4 +151,6 @@ facts:
             text: 'Deutsch, Englisch'
     type: collapsible
     enabled: true
+open_graph_description: 'Annatina Menn berät und vertritt in- und ausländische Akteure der verschiedenen Unterhaltungs- und Kreativindustrien, der Kunst- und Kulturbranche sowie diverser Technologiesektoren. Sie praktiziert entsprechend vorwiegend im Kunstrecht, im Urheberrecht, im Design- und Markenrecht, im Film- und Fernsehrecht, im Medien- und Kommunikationsrecht, im Lauterkeitsrecht sowie im Vertragsrecht. Zudem verfügt Annatina Menn über grosse Erfahrung im Planungs-, Bau- und Immobilienrecht. Sie prozessiert regelmässig vor Schweizer Gerichten. Ihren Doktortitel erwarb sie im Filmurheberrecht.'
+open_graph_image: images/utolegal_team_annatina_menn.jpg
 ---
