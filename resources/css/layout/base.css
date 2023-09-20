@@ -14,7 +14,7 @@ p {
 }
 
 strong, b {
-  @apply font-grotesk-bold font-bold;
+  @apply font-grotesk-bold font-normal;
 }
 
 em, i {
