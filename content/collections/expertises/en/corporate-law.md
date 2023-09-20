@@ -138,4 +138,15 @@ content:
               -
                 type: text
                 text: 'Reorganizations, restructurings, transformations, and liquidations of companies'
+  -
+    type: set
+    attrs:
+      id: lmrfzi0x
+      values:
+        type: contacts
+        team:
+          - 997d3dd4-51ab-479d-a03d-195c0d87b3c1
+          - 8c22db4a-fdeb-4c75-8b11-6c6849e503ee
+          - c9722f76-f0c4-44c8-b00d-d8ee5c0d3d79
+          - 34560e74-2529-4226-8332-60f5e865a557
 ---

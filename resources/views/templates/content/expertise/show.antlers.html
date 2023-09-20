@@ -11,7 +11,17 @@
     {{ content }}
       {{ if type == 'text' }}
         {{ text }}
-      {{ /if}}
+      {{ /if }}
+      {{ if type == 'contacts' }}
+        <h2 class="mb-12">
+          {{ trans key="Ansprechpersonen" }}:
+        </h2>
+        {{ team }}
+          <a href="{{ permalink }}" title="{{ title }}" class="block font-grotesk-bold text-graphite hover:text-black transition-color">
+            {{ title }}
+          </a>
+        {{ /team }}
+      {{ /if }}
     {{ /content}}
   </div>
 

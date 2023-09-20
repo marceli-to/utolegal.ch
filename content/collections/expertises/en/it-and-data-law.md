@@ -30,4 +30,14 @@ content:
       -
         type: text
         text: 'We support companies in preparing to defend themselves against a cyberattack (e.g., creating a plan for coping with and recovering from a cyberattack) and in dealing with all types of IT security incidents.'
+  -
+    type: set
+    attrs:
+      id: lmrfy8y0
+      values:
+        type: contacts
+        team:
+          - 997d3dd4-51ab-479d-a03d-195c0d87b3c1
+          - c9722f76-f0c4-44c8-b00d-d8ee5c0d3d79
+          - 17f3ef64-a4a2-4b50-a33e-a3bc519df03a
 ---

@@ -120,4 +120,17 @@ content:
       -
         type: text
         text: 'We also offer advice on and draft general terms and conditions (GTC) as well as standard contracts tailored to the needs of our clients.'
+  -
+    type: set
+    attrs:
+      id: lmrg0l8d
+      values:
+        type: contacts
+        team:
+          - 997d3dd4-51ab-479d-a03d-195c0d87b3c1
+          - 8c22db4a-fdeb-4c75-8b11-6c6849e503ee
+          - f9523757-42b1-4196-a5c2-993d673345c5
+          - c9722f76-f0c4-44c8-b00d-d8ee5c0d3d79
+          - 34560e74-2529-4226-8332-60f5e865a557
+          - 17f3ef64-a4a2-4b50-a33e-a3bc519df03a
 ---

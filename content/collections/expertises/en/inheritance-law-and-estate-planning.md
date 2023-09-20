@@ -12,4 +12,14 @@ content:
       -
         type: text
         text: "We advise private individuals on the structuring of domestic and foreign assets in view of death, on the drafting of wills and inheritance contracts as well as on corporate and private estate planning. We also look after estates as executors or representatives of heirs. Furthermore, we offer individual support and advice for artists with regard to their estate or we accompany heirs or communities of heirs in the best possible handling of an artist's estate."
+  -
+    type: set
+    attrs:
+      id: lmrg44cs
+      values:
+        type: contacts
+        team:
+          - 8c22db4a-fdeb-4c75-8b11-6c6849e503ee
+          - f9523757-42b1-4196-a5c2-993d673345c5
+          - 34560e74-2529-4226-8332-60f5e865a557
 ---

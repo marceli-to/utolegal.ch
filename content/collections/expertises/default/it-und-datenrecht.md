@@ -4,7 +4,7 @@ blueprint: expertise
 title: 'IT- und Datenrecht'
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695194074
+updated_at: 1695196049
 open_graph_description: 'IT-Verträge: Wir prüfen, entwerfen und verhandeln alle Arten von Verträgen in der Technologiebranche (Outsourcing inkl. BPO und arbeitsrechtliche Aspekte, Cloud inkl. SaaS/IaaS/PaaS, Softwarelizenzierung inkl. Open Source & Apps, Hosting, Integration, Implementierung, Infrastruktur, Beratung, Technologietransfer inkl. F&E, H2020, Beschaffung & Sourcing usw.).'
 content:
   -
@@ -31,4 +31,14 @@ content:
       -
         type: text
         text: 'Wir unterstützen Unternehmen bei der Vorbereitung zur Abwehr eines Cyberangriffs (z.B. bei der Erstellung eines Plans zur Bewältigung und Wiederherstellung nach einer Cyberattacke) und bei der Bewältigung aller Arten von IT-Sicherheitsvorfällen.'
+  -
+    type: set
+    attrs:
+      id: lmrfy8y0
+      values:
+        type: contacts
+        team:
+          - 997d3dd4-51ab-479d-a03d-195c0d87b3c1
+          - c9722f76-f0c4-44c8-b00d-d8ee5c0d3d79
+          - 17f3ef64-a4a2-4b50-a33e-a3bc519df03a
 ---

@@ -99,4 +99,16 @@ content:
       -
         type: text
         text: 'We are the point of contact for all players from the creative industries, the advertising and communications sector, the start-up scene and all other companies and private individuals involved in intellectual property (IP). We represent the interests of rights holders as well as those of users of intangible works and services. We support companies in developing their IP strategy, in successfully launching new products and in defending, licensing, and transferring their intellectual property.'
+  -
+    type: set
+    attrs:
+      id: lmrf20sj
+      values:
+        type: contacts
+        team:
+          - 997d3dd4-51ab-479d-a03d-195c0d87b3c1
+          - 8c22db4a-fdeb-4c75-8b11-6c6849e503ee
+          - f9523757-42b1-4196-a5c2-993d673345c5
+          - c9722f76-f0c4-44c8-b00d-d8ee5c0d3d79
+          - 17f3ef64-a4a2-4b50-a33e-a3bc519df03a
 ---

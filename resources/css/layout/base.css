@@ -22,11 +22,16 @@ em, i {
 }
 
 section ul:not(section nav ul) {
-  @apply m-0 mb-20 p-0;
+  @apply m-0 mb-20 p-0 list-none;
 }
 
 section li:not(section nav li) {
-  @apply list-item list-disc ml-18;
+  @apply list-item list-none ml-5 pl-15 md:ml-15 md:pl-10 relative;
+}
+
+section li:not(section nav li):before {
+  @apply absolute -ml-20 md:-ml-24 -top-1;
+  content: '\2013';
 }
 
 section li:not(section nav li) > p {

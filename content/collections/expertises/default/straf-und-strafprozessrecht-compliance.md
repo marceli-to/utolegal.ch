@@ -4,7 +4,7 @@ blueprint: expertise
 title: 'Straf- und Strafprozessrecht, Compliance'
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695194398
+updated_at: 1695196269
 open_graph_description: 'Aufgrund unserer fundierten Kenntnisse sind wir die spezialisierten Ansprechpartner für unsere Klientinnen und Klienten in allen rechtlichen Belangen mit Berührungspunkten zum Strafrecht.'
 content:
   -
@@ -73,4 +73,12 @@ content:
       -
         type: text
         text: 'Aufgrund unserer langjährigen Erfahrung sind wir in der Lage, auch Verteidigungen und Geschädigtenvertretungen in komplexen Wirtschaftsstrafverfahren mit umfangreichem Aktenmaterial kompetent und effizient zu führen.'
+  -
+    type: set
+    attrs:
+      id: lmrg33mi
+      values:
+        type: contacts
+        team:
+          - 34560e74-2529-4226-8332-60f5e865a557
 ---
