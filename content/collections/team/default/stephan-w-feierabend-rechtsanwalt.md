@@ -15,7 +15,7 @@ description:
         type: text
         text: 'Stephan Feierabend berät nationale und internationale Unternehmen der verschiedensten Branchen und Privatpersonen im Marken-, Urheber-, Design- und Lauterkeitsrecht sowie im Gesellschafts- und Vertragsrecht. Weiter verfügt er über langjährige Erfahrung im Werbe- und Medienrecht, in Kunsttransaktionen sowie in Fragen der unternehmerischen und privaten Nachlassplanung.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695202134
+updated_at: 1695227669
 vcard: downloads/vcard-patrick-dehmer.vcf
 show_privacy_menu: true
 facts:
@@ -202,4 +202,5 @@ facts:
     enabled: true
 open_graph_description: 'Stephan Feierabend berät nationale und internationale Unternehmen der verschiedensten Branchen und Privatpersonen im Marken-, Urheber-, Design- und Lauterkeitsrecht sowie im Gesellschafts- und Vertragsrecht. Weiter verfügt er über langjährige Erfahrung im Werbe- und Medienrecht, in Kunsttransaktionen sowie in Fragen der unternehmerischen und privaten Nachlassplanung.'
 portrait: images/utolegal_team_stephan_feierabend.jpg
+open_graph_image: images/utolegal_team_stephan_feierabend.jpg
 ---

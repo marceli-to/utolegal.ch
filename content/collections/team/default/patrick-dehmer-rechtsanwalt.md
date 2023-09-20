@@ -13,7 +13,7 @@ description:
         text: "Patrick Dehmer verfügt über grosse Erfahrung in den Bereichen Telekommunikation, Medien, Unterhaltungs- und Informationstechnologie. Er berät seine Klienten in Fragen des Immaterialgüterrechts (Musik, Film, Marken), Gesellschafts-, Vertrags- und Wettbewerbsrechts. Aufgrund seiner langjährigen Tätigkeit als Rechtsdienstleiter berät und unterstützt er Unternehmen und Organisationen auch beim Aufbau, bei der Weiterentwicklung und der Transformation von Rechtsdiensten.\_"
 portra: images/utolegal_team_patrick_dehmer-1695049248.jpg
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695202126
+updated_at: 1695227660
 firstname: Patrick
 lastname: Dehmer
 jobtitle: Rechtsanwalt
@@ -157,4 +157,5 @@ facts:
     enabled: true
 open_graph_description: 'Patrick Dehmer verfügt über grosse Erfahrung in den Bereichen Telekommunikation, Medien, Unterhaltungs- und Informationstechnologie. Er berät seine Klienten in Fragen des Immaterialgüterrechts (Musik, Film, Marken), Gesellschafts-, Vertrags- und Wettbewerbsrechts. Aufgrund seiner langjährigen Tätigkeit als Rechtsdienstleiter berät und unterstützt er Unternehmen und Organisationen auch beim Aufbau, bei der Weiterentwicklung und der Transformation von Rechtsdiensten.'
 portrait: images/utolegal_team_patrick_dehmer.jpg
+open_graph_image: images/utolegal_team_patrick_dehmer.jpg
 ---
