@@ -2,8 +2,9 @@
 id: b3545386-f8fc-44f1-aaae-481250a0925e
 origin: dd511ea0-b3ed-4f6c-a43d-65c9e7a0dd2c
 title: 'Terms of use'
+open_graph_description: 'This website is operated by the attorneys of Uto Legal. By accessing this website, you agree to be bound by these terms of use. The content of this website is for general information purposes only and should not be construed as legal advice on any particular facts or circumstances. Although we use reasonable efforts to keep all information accurate and up to date, we do not accept any responsibility or liability for its accuracy, completeness, or timeliness.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695143841
+updated_at: 1695232084
 content:
   -
     type: paragraph

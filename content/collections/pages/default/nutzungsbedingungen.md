@@ -3,9 +3,10 @@ id: dd511ea0-b3ed-4f6c-a43d-65c9e7a0dd2c
 blueprint: page
 title: Nutzungsbedingungen
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695143788
+updated_at: 1695232076
 template: templates/content/privacy
 show_privacy_menu: false
+open_graph_description: 'Diese Website wird von der Bürogemeinschaft Uto Legal betrieben. Durch den Zugriff auf diese Website erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Der Inhalt dieser Website dient nur zu allgemeinen Informationszwecken und darf nicht als Rechtsberatung zu bestimmten Fakten oder Umständen ausgelegt werden. Obwohl wir uns in angemessener Weise bemühen, alle Informationen korrekt und aktuell zu halten, übernehmen wir keine Verantwortung oder Haftung für deren Richtigkeit, Vollständigkeit oder Aktualität.'
 content:
   -
     type: paragraph

@@ -2,8 +2,9 @@
 id: 68463c2b-d80e-4c7c-a315-758159de601b
 origin: 652e6340-47ea-4c43-81ee-9b840d7810f3
 title: Imprint
+open_graph_description: 'The attorneys at law Patrick Dehmer, Stephan W. Feierabend, Dr. Annatina Menn, Dr. Marco Neeser, Gianandrea Prader and Dr. Alesch Staehelin are jointly responsible for the content of this website.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695227968
+updated_at: 1695232064
 content:
   -
     type: paragraph

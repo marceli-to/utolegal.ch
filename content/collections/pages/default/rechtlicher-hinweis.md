@@ -3,9 +3,10 @@ id: dea3aa02-c1b6-494a-97c2-1bc788f50550
 blueprint: page
 title: 'Rechtlicher Hinweis'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695046854
+updated_at: 1695232097
 template: templates/content/privacy
 show_privacy_menu: false
+open_graph_description: "Uto Legal ist als Bürogemeinschaft organisiert und ist keine Anwaltskörperschaft. Ihr Mandat schliessen Sie, vorbehältlich einer anderen Regelung in einem schriftlichen Mandatsvertrag, mit der jeweiligen Rechtsanwältin oder dem jeweiligen Rechtsanwalt ab. Die Rechtsanwältinnen und Rechtsanwälte Patrick Dehmer, Stephan W. Feierabend, Dr. Annatina Menn, Dr. Marco Neeser, Gianandrea Prader und Dr. Alesch Staehelin sind einzeln praktizierend und \_handeln jeweils eigenverantwortlich. Sie haften nicht solidarisch füreinander und bilden keine Kollektivgesellschaft."
 content:
   -
     type: paragraph
