@@ -3,7 +3,7 @@ id: 68463c2b-d80e-4c7c-a315-758159de601b
 origin: 652e6340-47ea-4c43-81ee-9b840d7810f3
 title: Imprint
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695143940
+updated_at: 1695227968
 content:
   -
     type: paragraph
@@ -20,15 +20,13 @@ content:
           -
             type: bold
         text: Contact
-  -
-    type: paragraph
-    content:
+      -
+        type: hardBreak
       -
         type: text
         text: 'Uto Legal, Utoquai 39, P.O. Box, CH-8024 Zurich'
-  -
-    type: paragraph
-    content:
+      -
+        type: hardBreak
       -
         type: text
         text: 'Phone '
@@ -48,24 +46,34 @@ content:
     content:
       -
         type: text
-        text: 'Portraits: '
+        marks:
+          -
+            type: bold
+        text: Design
+      -
+        type: hardBreak
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'https://www.annemorgenstern.com'
+              href: 'https://wbg.ch'
               rel: null
               target: _blank
-              title: 'Anne Morgenstern'
-        text: 'Anne Morgenstern'
+              title: 'WBG AG'
+        text: 'WBG AG'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Programming: '
+        marks:
+          -
+            type: bold
+        text: Programming
+      -
+        type: hardBreak
       -
         type: text
         marks:
@@ -82,16 +90,21 @@ content:
     content:
       -
         type: text
-        text: 'Design: '
+        marks:
+          -
+            type: bold
+        text: Portraits
+      -
+        type: hardBreak
       -
         type: text
         marks:
           -
             type: link
             attrs:
-              href: 'https://wbg.ch'
+              href: 'https://www.annemorgenstern.com'
               rel: null
               target: _blank
-              title: 'WBG AG'
-        text: 'WBG AG'
+              title: 'Anne Morgenstern'
+        text: 'Anne Morgenstern'
 ---
