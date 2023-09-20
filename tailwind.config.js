@@ -7,6 +7,7 @@ module.exports = {
     './resources/**/*.antlers.php',
     './resources/**/*.blade.php',
     './resources/**/*.vue',
+    './resources/**/*.js',
     './content/**/*.md'
   ],
   theme: {

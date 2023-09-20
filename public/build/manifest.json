@@ -48,12 +48,12 @@
     "src": "public/fonts/FunktionalGrotesk-RegularItalic.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-8bb02d0f.css",
+    "file": "assets/app-3442f935.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-eb952472.js",
+    "file": "assets/app-ab301b1a.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
