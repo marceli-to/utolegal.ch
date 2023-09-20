@@ -18,17 +18,16 @@
       listItem.addEventListener('mouseover', () => {
         portraitItems.forEach(portraitItem => {
           if (portraitItem.dataset.portrait === listItem.dataset.list) {
-            portraitItem.classList.remove('opacity-70');
+            portraitItem.classList.remove('opacity-80');
           } else {
-            portraitItem.classList.add('opacity-70');
-            portraitItem.classList.add('transition-opacity');
+            portraitItem.classList.add('opacity-80');
           }
         });
       });
 
       listItem.addEventListener('mouseleave', () => {
         portraitItems.forEach(portraitItem => {
-          portraitItem.classList.remove('opacity-70');
+          portraitItem.classList.remove('opacity-80');
         });
       });
     });
@@ -45,7 +44,6 @@
             listItem.classList.remove('text-graphite');
           } else {
             listItem.classList.add('text-graphite');
-            listItem.classList.add('transition-colors');
           }
         });
       });
