@@ -6,7 +6,6 @@ firstname: Gianandrea
 lastname: Prader
 jobtitle: 'Rechtsanwalt, LL.M.'
 email: prader@utolegal.ch
-portrait: images/utolegal_team_gianandrea_prader.jpg
 description:
   -
     type: paragraph
@@ -54,7 +53,7 @@ description:
                 type: text
                 text: 'Erbrecht und Nachlassplanung'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695193023
+updated_at: 1695202158
 vcard: downloads/vcard-patrick-dehmer.vcf
 show_privacy_menu: true
 phone: '+41 44 289 80 00'
@@ -195,5 +194,5 @@ facts:
 open_graph_description: |-
   Rechtsanwalt Gianandrea Prader berät und vertritt seine Klientinnen und Klienten vorwiegend in den Bereichen:
   Strafrecht und Wirtschaftsstrafrecht (inkl. Nebenstrafrecht wie Strassenverkehrsrecht (SVG), BetmG, UWG, URG, MSchG, DSG, etc.), Gesellschaftsrecht, Vertragsrecht, Arbeitsrecht, Miet- und Pachtrecht, Erbrecht und Nachlassplanung
-open_graph_image: images/utolegal_team_gianandrea_prader.jpg
+portrait: images/utolegal_team_gianandrea_prader.jpg
 ---
