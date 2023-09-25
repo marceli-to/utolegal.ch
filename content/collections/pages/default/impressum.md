@@ -27,7 +27,7 @@ content:
         type: hardBreak
       -
         type: text
-        text: 'Uto Legal, Utoquai 39, Postfach, CH-8024 Zürich'
+        text: 'Uto Legal, Utoquai 39, Postfach, CH-8034 Zürich'
       -
         type: hardBreak
       -
