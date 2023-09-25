@@ -14,7 +14,11 @@
       {{ /if }}
       {{ if type == 'contacts' }}
         <h2 class="mb-12">
-          {{ trans key="Ansprechpersonen" }}:
+          {{ if team | count == 1}}
+            {{ trans key="Ansprechperson" }}:
+          {{ else }}
+            {{ trans key="Ansprechpersonen" }}:
+          {{ /if }}
         </h2>
         {{ team }}
           <a href="{{ permalink }}" title="{{ title }}" class="block font-grotesk-bold text-graphite hover:text-black transition-color">
