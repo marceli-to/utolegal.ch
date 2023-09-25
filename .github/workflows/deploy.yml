@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Copy .env
-        run: cp .env.hosting .env
+        run: cp .env.example .env
       - name: Add .env variables
         run : |
           echo APP_ENV=production >> .env
