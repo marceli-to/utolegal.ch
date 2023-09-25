@@ -15,8 +15,7 @@ description:
         type: text
         text: 'Alesch Staehelin berät und vertritt Klienten in den Bereichen «Data, IT/IP & Media»: Er entwirft, prüft und verhandelt Verträge aller Art (insbesondere komplexe, zeitkritische und grenzüberschreitende Tech-Deals), er berät in Fragen des Datenschutzes, der IT-Sicherheit, der digitalen Transformation, der neuen Technologien (z.B. KI und IoT), der sozialen Medien, des E-Commerce, des Urheber-, Unterhaltungs- und Medienrechts, des Marken-, Design- und Patentrechts (inkl. Know-how-Schutz) und des Wettbewerbsrechts, er vermittelt in strittigen Projekten, und er führt Gerichts- und Schiedsverfahren. Alesch ist Lehrbeauftragter an diversen Schweizer Universitäten und ehemaliger Journalist (u.a. NZZ).'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695632482
-vcard: downloads/vcard-patrick-dehmer.vcf
+updated_at: 1695656794
 show_privacy_menu: true
 facts:
   -
@@ -206,4 +205,5 @@ open_graph_description: 'Alesch Staehelin berät und vertritt Klienten in den Be
 portrait: images/utolegal_team_alesch_staehlin.jpg
 open_graph_image: images/utolegal_team_alesch_staehlin.jpg
 fullname: 'Dr. Alesch Staehelin'
+vcard: downloads/dr_alesch_staehelin_rechtsanwalt_ll_m.vcf
 ---
