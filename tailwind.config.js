@@ -26,7 +26,6 @@ module.exports = {
         'grotesk-bold': ['FunktionalGrotesk-Bold', ...defaultTheme.fontFamily.sans],
         'grotesk-medium': ['FunktionalGrotesk-Medium', ...defaultTheme.fontFamily.sans],
         'grotesk-regular': ['FunktionalGrotesk-Regular', ...defaultTheme.fontFamily.sans],
-        'grotesk-italic': ['FunktionalGrotesk-RegularItalic', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {

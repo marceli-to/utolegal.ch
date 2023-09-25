@@ -18,7 +18,7 @@ strong, b {
 }
 
 em, i {
-  @apply font-grotesk-italic;
+  @apply font-grotesk-regular;
 }
 
 section ul:not(section nav ul) {

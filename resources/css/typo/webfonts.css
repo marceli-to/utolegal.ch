@@ -32,11 +32,4 @@
     font-display: swap;
   }
 
-  @font-face {
-    font-family: 'FunktionalGrotesk-RegularItalic';
-    src: url('$fonts/FunktionalGrotesk-RegularItalic.eot');
-    src: url('$fonts/FunktionalGrotesk-RegularItalic.eot?#iefix') format('embedded-opentype'), url('$fonts/FunktionalGrotesk-RegularItalic.woff') format('woff'), url('$fonts/FunktionalGrotesk-RegularItalic.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
 }

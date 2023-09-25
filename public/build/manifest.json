@@ -35,20 +35,8 @@
     "file": "assets/FunktionalGrotesk-Regular-f75442ee.woff2",
     "src": "public/fonts/FunktionalGrotesk-Regular.woff2"
   },
-  "public/fonts/FunktionalGrotesk-RegularItalic.eot": {
-    "file": "assets/FunktionalGrotesk-RegularItalic-6977bd9d.eot",
-    "src": "public/fonts/FunktionalGrotesk-RegularItalic.eot"
-  },
-  "public/fonts/FunktionalGrotesk-RegularItalic.woff": {
-    "file": "assets/FunktionalGrotesk-RegularItalic-0e60bd7f.woff",
-    "src": "public/fonts/FunktionalGrotesk-RegularItalic.woff"
-  },
-  "public/fonts/FunktionalGrotesk-RegularItalic.woff2": {
-    "file": "assets/FunktionalGrotesk-RegularItalic-9aceb9bf.woff2",
-    "src": "public/fonts/FunktionalGrotesk-RegularItalic.woff2"
-  },
   "resources/css/app.css": {
-    "file": "assets/app-566a21c5.css",
+    "file": "assets/app-a574d333.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
