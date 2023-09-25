@@ -3,7 +3,7 @@ id: 26b6d031-4eb4-4752-8dee-067f0a68024e
 origin: 7fe6d69a-20b5-4267-83b4-f623da4d05bb
 title: 'Arts and Entertainment Law'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695194029
+updated_at: 1695632869
 content:
   -
     type: paragraph
@@ -31,7 +31,7 @@ content:
             content:
               -
                 type: text
-                text: 'Film law and film contract law, from production to com-mercial exploitation, including motion picture distribution'
+                text: 'Film law and film contract law, from production to commercial exploitation, including motion picture distribution'
       -
         type: listItem
         content:
@@ -100,7 +100,7 @@ content:
     content:
       -
         type: text
-        text: "In art law, we regularly deal with domestic and foreign transactions of art objects, loan, transport, and insurance contracts, with damage cases, authenticity, and restitution matters, as well as with legal issues regarding the interna-tional transfer of cultural property. We advise artists or com-missioners on contracts for work (especially art in architec-ture), heirs and last will executors on dealing with an artist's estate. We support artists, galleries, museums, and collec-tors in contractual and copyright issues and represent their interests in court"
+        text: "In art law, we regularly deal with domestic and foreign transactions of art objects, loan, transport, and insurance contracts, with damage cases, authenticity, and restitution matters, as well as with legal issues regarding the international transfer of cultural property. We advise artists or commissioners on contracts for work (especially art in architecture), heirs and last will executors on dealing with an artist's estate. We support artists, galleries, museums, and collectors in contractual and copyright issues and represent their interests in court."
   -
     type: set
     attrs:

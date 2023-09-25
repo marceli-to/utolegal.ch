@@ -9,7 +9,7 @@ description:
     content:
       -
         type: text
-        text: 'Annatina Menn advises and represents domestic and foreign players in the various entertainment and creative industries, the arts and culture business and various technology sectors. Accordingly, she practices primarily art law, copyright law, design and trademark law, film and television law, media and communications law, unfair competition law and contract law. Annatina Menn also has extensive experience in planning, construction, and real estate law. She regularly litigates before Swiss courts. She earned her doctorate in copyright law in the film industry.'
+        text: 'Annatina Menn advises and represents domestic and foreign players in the various entertainment and creative industries, the art and culture business and various technology sectors. Accordingly, she practices primarily art law, copyright law, design and trademark law, film and television law, media and communications law, unfair competition law and contract law. Annatina Menn also has extensive experience in planning, construction, and real estate law. She regularly litigates before Swiss courts. She earned her doctorate in copyright law in the film industry.'
 facts:
   -
     id: lmqak0ep
@@ -36,7 +36,7 @@ facts:
             type: hardBreak
           -
             type: text
-            text: 'Partner at Zweierstrasse Attorneys at Law and IP-INTELLIGENCE Attorneys at Law'
+            text: 'Partner at IP-INTELLIGENCE Attorneys at Law'
       -
         type: paragraph
         content:
@@ -144,5 +144,5 @@ facts:
     enabled: true
 open_graph_description: 'Annatina Menn advises and represents domestic and foreign players in the various entertainment and creative industries, the arts and culture business and various technology sectors. Accordingly, she practices primarily art law, copyright law, design and trademark law, film and television law, media and communications law, unfair competition law and contract law. Annatina Menn also has extensive experience in planning, construction, and real estate law. She regularly litigates before Swiss courts. She earned her doctorate in copyright law in the film industry.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695192855
+updated_at: 1695632671
 ---

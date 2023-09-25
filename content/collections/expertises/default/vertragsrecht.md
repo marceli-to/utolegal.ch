@@ -4,7 +4,7 @@ blueprint: expertise
 title: Vertragsrecht
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695196164
+updated_at: 1695632939
 open_graph_description: 'Wir verfügen über grosse Erfahrung bei der Beratung, Verhandlung und Gestaltung von sämtlichen wirtschaftlich relevanten Vertragsarten.'
 content:
   -
@@ -120,7 +120,7 @@ content:
     content:
       -
         type: text
-        text: 'Wir bieten auch Beratung bei und Gestaltung von Allgemeinen Geschäftsbedingungen (AGB) sowie von auf die Bedürfnisse der Klientschaft zugeschnittenen Standardverträgen'
+        text: 'Wir bieten auch Beratung bei und Gestaltung von Allgemeinen Geschäftsbedingungen (AGB) sowie von auf die Bedürfnisse der Klientschaft zugeschnittenen Standardverträgen.'
   -
     type: set
     attrs:

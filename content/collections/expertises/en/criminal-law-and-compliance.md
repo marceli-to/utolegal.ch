@@ -32,7 +32,7 @@ content:
             content:
               -
                 type: text
-                text: 'Commercial criminal law, corporate criminal law, compli-ance'
+                text: 'White collar crime, corporate criminal law, compliance'
       -
         type: listItem
         content:
@@ -65,7 +65,7 @@ content:
     content:
       -
         type: text
-        text: 'We act as defense lawyers and injured party representa-tives for accused private individuals and companies, private plaintiffs, victims and injured parties before all cantonal and federal criminal and administrative authorities in German-speaking Switzerland.'
+        text: 'We act as defense lawyers and injured party representatives for accused private individuals and companies, private plaintiffs, victims and injured parties before all cantonal and federal criminal and administrative authorities in German-speaking Switzerland.'
   -
     type: paragraph
     content:

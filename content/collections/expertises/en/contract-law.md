@@ -4,7 +4,7 @@ origin: eb8cfbf5-611a-4f64-b15b-0fe941754955
 title: 'Contract Law'
 open_graph_description: 'We have extensive experience in advising on, negotiating, and drafting all commercially relevant types of contracts.'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695194249
+updated_at: 1695632933
 content:
   -
     type: paragraph
@@ -23,7 +23,7 @@ content:
             content:
               -
                 type: text
-                text: 'Contracts regarding intellectual property, entertainment, and art'
+                text: 'Contracts regarding intellectual property, entertainment and art'
       -
         type: listItem
         content:

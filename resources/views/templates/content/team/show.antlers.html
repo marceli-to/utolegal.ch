@@ -8,7 +8,11 @@
 
   <div class="order-1 md:order-2 md:mb-28 lg:mb-0 md:col-span-9 md:col-start-4 lg:col-span-4 lg:col-start-8 xl:col-span-4 xl:col-start-8">
     <h1 class="font-grotesk-bold">
-      {{ firstname }} {{ lastname }}
+      {{ if fullname }}
+        {{ fullname }}
+      {{ else }}
+        {{ firstname }} {{ lastname }}
+      {{ /if}}
     </h1>
     <div>
       <strong>{{ jobtitle}}</strong>
@@ -36,10 +40,10 @@
       <div>
         <a 
           href="{{ vcard }}" 
-          title="Download V-Card" 
+          title="Download vCard" 
           target="_blank" 
           class="font-grotesk-italic hover:text-graphite transition-colors">
-          V-Card
+          vCard
         </a>
       </div>
     {{ /if }}

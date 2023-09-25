@@ -1,7 +1,7 @@
 ---
 id: 501eb09f-b224-4d69-89b2-cf9638f8ef24
 origin: 17f3ef64-a4a2-4b50-a33e-a3bc519df03a
-title: 'Dr. Alesch Staehelin, Attorney at Law, LL.M. (UCLA)'
+title: 'Dr. Alesch Staehelin, Attorney at Law, LL.M.'
 jobtitle: 'Attorney at Law, LL.M. (UCLA)'
 description:
   -
@@ -184,5 +184,5 @@ facts:
     enabled: true
 open_graph_description: 'Alesch Staehelin advises and represents his clients in the areas of Data, IT/IP & Media: He drafts, reviews, and negotiates con-tracts of all kinds (especially complex, time-critical and cross-border tech deals), he advises on data protection, IT security, digital transformation, new technologies (e.g., AI and IoT), social media, e-commerce, copyright, entertainment and media law, trade-mark, design and patent law (including know-how protection) and competition law., he mediates in contentious projects, and he conducts court and arbitration proceedings. Alesch is a lecturer at various Swiss universities and a former journalist (including NZZ).'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695193240
+updated_at: 1695632298
 ---

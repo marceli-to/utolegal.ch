@@ -50,6 +50,19 @@ tabs:
               validate:
                 - required
           -
+            handle: fullname
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Fullname
+              icon: text
+              localizable: false
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
             handle: jobtitle
             field:
               input_type: text
@@ -191,7 +204,7 @@ tabs:
               show_filename: true
               show_set_alt: true
               type: assets
-              display: V-Card
+              display: vCard
               icon: assets
               localizable: false
               listable: hidden

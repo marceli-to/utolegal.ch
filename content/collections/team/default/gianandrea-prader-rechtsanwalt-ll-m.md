@@ -1,7 +1,7 @@
 ---
 id: 34560e74-2529-4226-8332-60f5e865a557
 blueprint: team
-title: 'lic. iur. Gianandrea Prader, Rechtsanwalt, LL.M.'
+title: 'Gianandrea Prader, Rechtsanwalt, LL.M.'
 firstname: Gianandrea
 lastname: Prader
 jobtitle: 'Rechtsanwalt, LL.M.'
@@ -53,7 +53,7 @@ description:
                 type: text
                 text: 'Erbrecht und Nachlassplanung'
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695227698
+updated_at: 1695632243
 vcard: downloads/vcard-patrick-dehmer.vcf
 show_privacy_menu: true
 phone: '+41 44 289 80 00'

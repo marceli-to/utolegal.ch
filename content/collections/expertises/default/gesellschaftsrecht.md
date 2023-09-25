@@ -4,7 +4,7 @@ blueprint: expertise
 title: Gesellschaftsrecht
 show_privacy_menu: true
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695196110
+updated_at: 1695632916
 open_graph_description: 'Wir verfügen über langjährige Erfahrung und fundierte Kenntnisse im Gesellschaftsrecht. Dabei berücksichtigen wir auch damit zusammenhängende Themen des Steuer- oder Wettbewerbsrechts.'
 content:
   -
@@ -39,7 +39,7 @@ content:
             content:
               -
                 type: text
-                text: 'Beratung bei Kapitalerhöhungen und Kapitalherabset-zungen'
+                text: 'Beratung bei Kapitalerhöhungen und Kapitalherabsetzungen'
       -
         type: listItem
         content:
@@ -75,7 +75,7 @@ content:
             content:
               -
                 type: text
-                text: 'Vertretung von Aktionärs- und Gläubigerinteressen ge-genüber Gesellschaften oder deren Organen'
+                text: 'Vertretung von Aktionärs- und Gläubigerinteressen gegenüber Gesellschaften oder deren Organen'
       -
         type: listItem
         content:
@@ -102,7 +102,7 @@ content:
             content:
               -
                 type: text
-                text: 'Beratung im Zusammenhang mit Verantwortlichkeitsfra-gen'
+                text: 'Beratung im Zusammenhang mit Verantwortlichkeitsfragen'
       -
         type: listItem
         content:
@@ -111,7 +111,7 @@ content:
             content:
               -
                 type: text
-                text: 'Sitzverlegungen vom Ausland in die Schweiz oder um-gekehrt'
+                text: 'Sitzverlegungen vom Ausland in die Schweiz oder umgekehrt'
       -
         type: listItem
         content:
