@@ -5,9 +5,11 @@
       {{ partial:icons/uto :class="'hidden md:block md:absolute w-108 lg:w-120 h-48 lg:h-54 -left-118 lg:-left-132 -top-7 lg:-top-8'" }}
       {{ partial:icons/legal :class="'hidden md:block w-auto h-21 lg:h-24'" }}
     </a>
+    {{ if slug != 'uto-legal-landing' }}
     <div class="md:flex md:justify-start md:pt-10 md:col-span-6 md:col-start-7 lg:col-span-5 lg:col-start-8">
       {{ partial:menu/main }}
       {{ partial:menu/button }}
     </div>
+    {{ /if }}
   </div>
 </header>
