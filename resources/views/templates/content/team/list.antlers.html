@@ -8,6 +8,7 @@
             title="{{ title }}"
             class="block"
             data-portrait="{{ id }}">
+            {{ portrait:height}}
             {{ partial:components/picture :title="title" :image="portrait" class="hidden md:block transition-opacity" :width="portrait:width" :height="portrait:height"  }}
           </a>
         </div>
