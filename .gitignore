@@ -21,3 +21,4 @@ yarn-error.log
 
 /public/.htaccess
 INSTALL.txt
+/public/robots.txt
