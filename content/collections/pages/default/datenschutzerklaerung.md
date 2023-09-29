@@ -3,7 +3,7 @@ id: 429b1b54-9345-4377-9588-12d9e257d9d5
 blueprint: page
 title: Datenschutzerklärung
 updated_by: 49862616-3811-407d-aebb-463013b87200
-updated_at: 1695974554
+updated_at: 1695990972
 template: templates/content/privacy
 show_privacy_menu: false
 content:
@@ -111,16 +111,7 @@ content:
     content:
       -
         type: text
-        text: 'Diese Daten können nicht direkt bestimmten Personen zugeordnet werden. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden. Diese Daten sowie alle Daten dieser Webseite werden bei unserem Hosting-Provider '
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: 'Hostpoint AG'
-      -
-        type: text
-        text: ', Rapperswil-Jona gespeichert, dessen Datenschutzerklärung Sie '
+        text: 'Diese Daten können nicht direkt bestimmten Personen zugeordnet werden. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns konkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden. Diese Daten sowie alle Daten dieser Webseite werden bei unserem Hosting-Provider Hostpoint AG, Rapperswil-Jona gespeichert, dessen Datenschutzerklärung Sie '
       -
         type: text
         marks:
