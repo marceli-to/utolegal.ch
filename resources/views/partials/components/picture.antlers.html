@@ -8,5 +8,7 @@
     height="{{ height }}" 
     width="{{ width }}"
     class="{{ class }}"
-    loading="lazy">
+    {{ if lazy }}
+    loading="lazy"
+    {{ /if }}>
 </picture>
