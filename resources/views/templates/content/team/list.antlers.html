@@ -8,7 +8,18 @@
             title="{{ title }}"
             class="block"
             data-portrait="{{ id }}">
-            {{ partial:components/picture :title="title" :image="portrait" class="hidden md:block transition-opacity" :width="portrait:width" :height="portrait:height"  }}
+            <picture class="w-full">
+              <source media="(min-width: 768px)" srcset="{{ glide:portrait preset='md-webp' }}" type="image/webp">
+              <source srcset="{{ glide:portrait preset='sm-webp' }}" type="image/webp">
+              <img 
+                src="{{ glide:portrait preset='sm' }}" 
+                alt="{{ portrait:title }}" 
+                title="{{ portrait:title }}" 
+                height="{{ portrait:height }}" 
+                width="{{ portrait:width }}"
+                class="hidden md:block transition-opacity"
+                loading="lazy">
+            </picture>
           </a>
         </div>
       {{ /collection:team }}
