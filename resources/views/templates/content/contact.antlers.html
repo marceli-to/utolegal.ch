@@ -26,8 +26,8 @@
           {{ team }}
             <h2 class="font-grotesk-bold">{{ title }}</h2>
             <p>
-              <a href="mailto:{{ email }}" title="E-Mail {{ title }}" class="hover:text-graphite transition-colors">
-                {{ email }}
+              <a href="mailto:{{ email | obfuscate_email }}" title="E-Mail {{ title }}" class="hover:text-graphite transition-colors">
+                {{ email | replace('@', '[at]') }}
               </a>
             </p>
           {{ /team }}
