@@ -19,11 +19,10 @@
     </div>
     <div>
       <a 
-        href="mailto:{{ email }}" 
-        target="_blank" 
+        href="mailto:{{ email | obfuscate_email }}"  
         title="{{ trans key="E-Mail Adresse" }}" 
         class="hover:text-graphite transition-colors">
-        {{ email }}
+        {{ email | replace('@', '[at]') }}
       </a>
     </div>
     <div>
