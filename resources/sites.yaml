@@ -1,0 +1,10 @@
+default:
+  name: Deutsch
+  locale: de_CH
+  short_name: D
+  url: '{{ config:app:url }}'
+en:
+  name: English
+  locale: en_US
+  short_name: E
+  url: '{{ config:app:url }}/en/'

@@ -9,6 +9,20 @@ export default defineConfig({
       $fonts: resolve('./public/fonts')
     }
   },
+  server: {
+    https: false,
+    host: true,
+    strictPort: true,
+    port: 5173,
+    hmr: {
+      host: 'localhost',
+    },
+    cors: {
+      origin: ['https://utolegal.ch.test'],
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      credentials: true
+    },
+  },
   plugins: [
         laravel({
             input: [
